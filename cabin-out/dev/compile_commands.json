@@ -1,0 +1,92 @@
+[
+  {
+    "directory": "/home/dominik/repos/school_assignments/cabin-out/dev",
+    "command": "c++ -DDEBUG -DCABIN_OOP_ASSIGNMENT_1_COMMIT_HASH='\"\"' -DCABIN_OOP_ASSIGNMENT_1_PROFILE='\"dev\"' -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION_PRE='\"\"' -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION_NUM=65536 -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION_PATCH=0 -DCABIN_OOP_ASSIGNMENT_1_COMMIT_DATE='\"\"' -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION_MINOR=1 -DCABIN_OOP_ASSIGNMENT_1_COMMIT_SHORT_HASH='\"\"' -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION_MAJOR=0 -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION='\"0.1.0\"' -DCABIN_OOP_ASSIGNMENT_1_PKG_NAME='\"oop_assignment_1\"' -I/home/dominik/repos/school_assignments/src -std=c++20 -fdiagnostics-color -g -O0  -c /home/dominik/repos/school_assignments/src/printer.cc -o oop_assignment_1.d/printer.o",
+    "file": "/home/dominik/repos/school_assignments/src/printer.cc",
+    "output": "oop_assignment_1.d/printer.o"
+  },
+  {
+    "directory": "/home/dominik/repos/school_assignments/cabin-out/dev",
+    "command": "c++ -DDEBUG -DCABIN_OOP_ASSIGNMENT_1_COMMIT_HASH='\"\"' -DCABIN_OOP_ASSIGNMENT_1_PROFILE='\"dev\"' -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION_PRE='\"\"' -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION_NUM=65536 -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION_PATCH=0 -DCABIN_OOP_ASSIGNMENT_1_COMMIT_DATE='\"\"' -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION_MINOR=1 -DCABIN_OOP_ASSIGNMENT_1_COMMIT_SHORT_HASH='\"\"' -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION_MAJOR=0 -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION='\"0.1.0\"' -DCABIN_OOP_ASSIGNMENT_1_PKG_NAME='\"oop_assignment_1\"' -I/home/dominik/repos/school_assignments/src -std=c++20 -fdiagnostics-color -g -O0  -c /home/dominik/repos/school_assignments/src/measurement-storage.cc -o oop_assignment_1.d/measurement-storage.o",
+    "file": "/home/dominik/repos/school_assignments/src/measurement-storage.cc",
+    "output": "oop_assignment_1.d/measurement-storage.o"
+  },
+  {
+    "directory": "/home/dominik/repos/school_assignments/cabin-out/dev",
+    "command": "c++ -DDEBUG -DCABIN_OOP_ASSIGNMENT_1_COMMIT_HASH='\"\"' -DCABIN_OOP_ASSIGNMENT_1_PROFILE='\"dev\"' -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION_PRE='\"\"' -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION_NUM=65536 -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION_PATCH=0 -DCABIN_OOP_ASSIGNMENT_1_COMMIT_DATE='\"\"' -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION_MINOR=1 -DCABIN_OOP_ASSIGNMENT_1_COMMIT_SHORT_HASH='\"\"' -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION_MAJOR=0 -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION='\"0.1.0\"' -DCABIN_OOP_ASSIGNMENT_1_PKG_NAME='\"oop_assignment_1\"' -I/home/dominik/repos/school_assignments/src -std=c++20 -fdiagnostics-color -g -O0  -c /home/dominik/repos/school_assignments/src/application.cc -o oop_assignment_1.d/application.o",
+    "file": "/home/dominik/repos/school_assignments/src/application.cc",
+    "output": "oop_assignment_1.d/application.o"
+  },
+  {
+    "directory": "/home/dominik/repos/school_assignments/cabin-out/dev",
+    "command": "c++ -DDEBUG -DCABIN_OOP_ASSIGNMENT_1_COMMIT_HASH='\"\"' -DCABIN_OOP_ASSIGNMENT_1_PROFILE='\"dev\"' -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION_PRE='\"\"' -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION_NUM=65536 -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION_PATCH=0 -DCABIN_OOP_ASSIGNMENT_1_COMMIT_DATE='\"\"' -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION_MINOR=1 -DCABIN_OOP_ASSIGNMENT_1_COMMIT_SHORT_HASH='\"\"' -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION_MAJOR=0 -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION='\"0.1.0\"' -DCABIN_OOP_ASSIGNMENT_1_PKG_NAME='\"oop_assignment_1\"' -I/home/dominik/repos/school_assignments/src -std=c++20 -fdiagnostics-color -g -O0  -c /home/dominik/repos/school_assignments/src/event.cc -o oop_assignment_1.d/event.o",
+    "file": "/home/dominik/repos/school_assignments/src/event.cc",
+    "output": "oop_assignment_1.d/event.o"
+  },
+  {
+    "directory": "/home/dominik/repos/school_assignments/cabin-out/dev",
+    "command": "c++ -DDEBUG -DCABIN_OOP_ASSIGNMENT_1_COMMIT_HASH='\"\"' -DCABIN_OOP_ASSIGNMENT_1_PROFILE='\"dev\"' -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION_PRE='\"\"' -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION_NUM=65536 -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION_PATCH=0 -DCABIN_OOP_ASSIGNMENT_1_COMMIT_DATE='\"\"' -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION_MINOR=1 -DCABIN_OOP_ASSIGNMENT_1_COMMIT_SHORT_HASH='\"\"' -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION_MAJOR=0 -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION='\"0.1.0\"' -DCABIN_OOP_ASSIGNMENT_1_PKG_NAME='\"oop_assignment_1\"' -I/home/dominik/repos/school_assignments/src -std=c++20 -fdiagnostics-color -g -O0  -c /home/dominik/repos/school_assignments/src/menu.cc -o oop_assignment_1.d/menu.o",
+    "file": "/home/dominik/repos/school_assignments/src/menu.cc",
+    "output": "oop_assignment_1.d/menu.o"
+  },
+  {
+    "directory": "/home/dominik/repos/school_assignments/cabin-out/dev",
+    "command": "c++ -DDEBUG -DCABIN_OOP_ASSIGNMENT_1_COMMIT_HASH='\"\"' -DCABIN_OOP_ASSIGNMENT_1_PROFILE='\"dev\"' -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION_PRE='\"\"' -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION_NUM=65536 -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION_PATCH=0 -DCABIN_OOP_ASSIGNMENT_1_COMMIT_DATE='\"\"' -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION_MINOR=1 -DCABIN_OOP_ASSIGNMENT_1_COMMIT_SHORT_HASH='\"\"' -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION_MAJOR=0 -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION='\"0.1.0\"' -DCABIN_OOP_ASSIGNMENT_1_PKG_NAME='\"oop_assignment_1\"' -I/home/dominik/repos/school_assignments/src -std=c++20 -fdiagnostics-color -g -O0  -c /home/dominik/repos/school_assignments/src/humidity-sensor.cc -o oop_assignment_1.d/humidity-sensor.o",
+    "file": "/home/dominik/repos/school_assignments/src/humidity-sensor.cc",
+    "output": "oop_assignment_1.d/humidity-sensor.o"
+  },
+  {
+    "directory": "/home/dominik/repos/school_assignments/cabin-out/dev",
+    "command": "c++ -DDEBUG -DCABIN_OOP_ASSIGNMENT_1_COMMIT_HASH='\"\"' -DCABIN_OOP_ASSIGNMENT_1_PROFILE='\"dev\"' -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION_PRE='\"\"' -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION_NUM=65536 -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION_PATCH=0 -DCABIN_OOP_ASSIGNMENT_1_COMMIT_DATE='\"\"' -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION_MINOR=1 -DCABIN_OOP_ASSIGNMENT_1_COMMIT_SHORT_HASH='\"\"' -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION_MAJOR=0 -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION='\"0.1.0\"' -DCABIN_OOP_ASSIGNMENT_1_PKG_NAME='\"oop_assignment_1\"' -I/home/dominik/repos/school_assignments/src -std=c++20 -fdiagnostics-color -g -O0  -c /home/dominik/repos/school_assignments/src/alarm.cc -o oop_assignment_1.d/alarm.o",
+    "file": "/home/dominik/repos/school_assignments/src/alarm.cc",
+    "output": "oop_assignment_1.d/alarm.o"
+  },
+  {
+    "directory": "/home/dominik/repos/school_assignments/cabin-out/dev",
+    "command": "c++ -DDEBUG -DCABIN_OOP_ASSIGNMENT_1_COMMIT_HASH='\"\"' -DCABIN_OOP_ASSIGNMENT_1_PROFILE='\"dev\"' -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION_PRE='\"\"' -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION_NUM=65536 -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION_PATCH=0 -DCABIN_OOP_ASSIGNMENT_1_COMMIT_DATE='\"\"' -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION_MINOR=1 -DCABIN_OOP_ASSIGNMENT_1_COMMIT_SHORT_HASH='\"\"' -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION_MAJOR=0 -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION='\"0.1.0\"' -DCABIN_OOP_ASSIGNMENT_1_PKG_NAME='\"oop_assignment_1\"' -I/home/dominik/repos/school_assignments/src -std=c++20 -fdiagnostics-color -g -O0  -c /home/dominik/repos/school_assignments/src/temperature-sensor.cc -o oop_assignment_1.d/temperature-sensor.o",
+    "file": "/home/dominik/repos/school_assignments/src/temperature-sensor.cc",
+    "output": "oop_assignment_1.d/temperature-sensor.o"
+  },
+  {
+    "directory": "/home/dominik/repos/school_assignments/cabin-out/dev",
+    "command": "c++ -DDEBUG -DCABIN_OOP_ASSIGNMENT_1_COMMIT_HASH='\"\"' -DCABIN_OOP_ASSIGNMENT_1_PROFILE='\"dev\"' -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION_PRE='\"\"' -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION_NUM=65536 -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION_PATCH=0 -DCABIN_OOP_ASSIGNMENT_1_COMMIT_DATE='\"\"' -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION_MINOR=1 -DCABIN_OOP_ASSIGNMENT_1_COMMIT_SHORT_HASH='\"\"' -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION_MAJOR=0 -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION='\"0.1.0\"' -DCABIN_OOP_ASSIGNMENT_1_PKG_NAME='\"oop_assignment_1\"' -I/home/dominik/repos/school_assignments/src -std=c++20 -fdiagnostics-color -g -O0  -c /home/dominik/repos/school_assignments/src/observer.cc -o oop_assignment_1.d/observer.o",
+    "file": "/home/dominik/repos/school_assignments/src/observer.cc",
+    "output": "oop_assignment_1.d/observer.o"
+  },
+  {
+    "directory": "/home/dominik/repos/school_assignments/cabin-out/dev",
+    "command": "c++ -DDEBUG -DCABIN_OOP_ASSIGNMENT_1_COMMIT_HASH='\"\"' -DCABIN_OOP_ASSIGNMENT_1_PROFILE='\"dev\"' -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION_PRE='\"\"' -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION_NUM=65536 -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION_PATCH=0 -DCABIN_OOP_ASSIGNMENT_1_COMMIT_DATE='\"\"' -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION_MINOR=1 -DCABIN_OOP_ASSIGNMENT_1_COMMIT_SHORT_HASH='\"\"' -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION_MAJOR=0 -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION='\"0.1.0\"' -DCABIN_OOP_ASSIGNMENT_1_PKG_NAME='\"oop_assignment_1\"' -I/home/dominik/repos/school_assignments/src -std=c++20 -fdiagnostics-color -g -O0  -c /home/dominik/repos/school_assignments/src/measurement.cc -o oop_assignment_1.d/measurement.o",
+    "file": "/home/dominik/repos/school_assignments/src/measurement.cc",
+    "output": "oop_assignment_1.d/measurement.o"
+  },
+  {
+    "directory": "/home/dominik/repos/school_assignments/cabin-out/dev",
+    "command": "c++ -DDEBUG -DCABIN_OOP_ASSIGNMENT_1_COMMIT_HASH='\"\"' -DCABIN_OOP_ASSIGNMENT_1_PROFILE='\"dev\"' -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION_PRE='\"\"' -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION_NUM=65536 -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION_PATCH=0 -DCABIN_OOP_ASSIGNMENT_1_COMMIT_DATE='\"\"' -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION_MINOR=1 -DCABIN_OOP_ASSIGNMENT_1_COMMIT_SHORT_HASH='\"\"' -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION_MAJOR=0 -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION='\"0.1.0\"' -DCABIN_OOP_ASSIGNMENT_1_PKG_NAME='\"oop_assignment_1\"' -I/home/dominik/repos/school_assignments/src -std=c++20 -fdiagnostics-color -g -O0  -c /home/dominik/repos/school_assignments/src/pressure-sensor.cc -o oop_assignment_1.d/pressure-sensor.o",
+    "file": "/home/dominik/repos/school_assignments/src/pressure-sensor.cc",
+    "output": "oop_assignment_1.d/pressure-sensor.o"
+  },
+  {
+    "directory": "/home/dominik/repos/school_assignments/cabin-out/dev",
+    "command": "c++ -DDEBUG -DCABIN_OOP_ASSIGNMENT_1_COMMIT_HASH='\"\"' -DCABIN_OOP_ASSIGNMENT_1_PROFILE='\"dev\"' -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION_PRE='\"\"' -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION_NUM=65536 -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION_PATCH=0 -DCABIN_OOP_ASSIGNMENT_1_COMMIT_DATE='\"\"' -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION_MINOR=1 -DCABIN_OOP_ASSIGNMENT_1_COMMIT_SHORT_HASH='\"\"' -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION_MAJOR=0 -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION='\"0.1.0\"' -DCABIN_OOP_ASSIGNMENT_1_PKG_NAME='\"oop_assignment_1\"' -I/home/dominik/repos/school_assignments/src -std=c++20 -fdiagnostics-color -g -O0  -c /home/dominik/repos/school_assignments/src/sensor-manager.cc -o oop_assignment_1.d/sensor-manager.o",
+    "file": "/home/dominik/repos/school_assignments/src/sensor-manager.cc",
+    "output": "oop_assignment_1.d/sensor-manager.o"
+  },
+  {
+    "directory": "/home/dominik/repos/school_assignments/cabin-out/dev",
+    "command": "c++ -DDEBUG -DCABIN_OOP_ASSIGNMENT_1_COMMIT_HASH='\"\"' -DCABIN_OOP_ASSIGNMENT_1_PROFILE='\"dev\"' -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION_PRE='\"\"' -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION_NUM=65536 -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION_PATCH=0 -DCABIN_OOP_ASSIGNMENT_1_COMMIT_DATE='\"\"' -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION_MINOR=1 -DCABIN_OOP_ASSIGNMENT_1_COMMIT_SHORT_HASH='\"\"' -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION_MAJOR=0 -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION='\"0.1.0\"' -DCABIN_OOP_ASSIGNMENT_1_PKG_NAME='\"oop_assignment_1\"' -I/home/dominik/repos/school_assignments/src -std=c++20 -fdiagnostics-color -g -O0  -c /home/dominik/repos/school_assignments/src/main.cc -o oop_assignment_1.d/main.o",
+    "file": "/home/dominik/repos/school_assignments/src/main.cc",
+    "output": "oop_assignment_1.d/main.o"
+  },
+  {
+    "directory": "/home/dominik/repos/school_assignments/cabin-out/dev",
+    "command": "c++ -DDEBUG -DCABIN_OOP_ASSIGNMENT_1_COMMIT_HASH='\"\"' -DCABIN_OOP_ASSIGNMENT_1_PROFILE='\"dev\"' -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION_PRE='\"\"' -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION_NUM=65536 -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION_PATCH=0 -DCABIN_OOP_ASSIGNMENT_1_COMMIT_DATE='\"\"' -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION_MINOR=1 -DCABIN_OOP_ASSIGNMENT_1_COMMIT_SHORT_HASH='\"\"' -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION_MAJOR=0 -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION='\"0.1.0\"' -DCABIN_OOP_ASSIGNMENT_1_PKG_NAME='\"oop_assignment_1\"' -I/home/dominik/repos/school_assignments/src -std=c++20 -fdiagnostics-color -g -O0  -c /home/dominik/repos/school_assignments/src/utils.cc -o oop_assignment_1.d/utils.o",
+    "file": "/home/dominik/repos/school_assignments/src/utils.cc",
+    "output": "oop_assignment_1.d/utils.o"
+  },
+  {
+    "directory": "/home/dominik/repos/school_assignments/cabin-out/dev",
+    "command": "c++ -DDEBUG -DCABIN_OOP_ASSIGNMENT_1_COMMIT_HASH='\"\"' -DCABIN_OOP_ASSIGNMENT_1_PROFILE='\"dev\"' -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION_PRE='\"\"' -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION_NUM=65536 -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION_PATCH=0 -DCABIN_OOP_ASSIGNMENT_1_COMMIT_DATE='\"\"' -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION_MINOR=1 -DCABIN_OOP_ASSIGNMENT_1_COMMIT_SHORT_HASH='\"\"' -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION_MAJOR=0 -DCABIN_OOP_ASSIGNMENT_1_PKG_VERSION='\"0.1.0\"' -DCABIN_OOP_ASSIGNMENT_1_PKG_NAME='\"oop_assignment_1\"' -I/home/dominik/repos/school_assignments/src -std=c++20 -fdiagnostics-color -g -O0  -c /home/dominik/repos/school_assignments/src/sensor.cc -o oop_assignment_1.d/sensor.o",
+    "file": "/home/dominik/repos/school_assignments/src/sensor.cc",
+    "output": "oop_assignment_1.d/sensor.o"
+  }
+]
