@@ -1,0 +1,6 @@
+cabin-out/
+*.o
+*.a
+*.so
+*.log
+*.ninja

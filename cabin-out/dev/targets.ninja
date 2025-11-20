@@ -1,24 +1,4 @@
-build oop_assignment_1.d/printer.o: cxx_compile /home/dominik/repos/school_assignments/src/printer.cc | /home/dominik/repos/school_assignments/src/printer.h
-  out_dir = oop_assignment_1.d
-  extra_flags = 
-
 build oop_assignment_1.d/measurement-storage.o: cxx_compile /home/dominik/repos/school_assignments/src/measurement-storage.cc | /home/dominik/repos/school_assignments/src/measurement-storage.h /home/dominik/repos/school_assignments/src/measurement.h /home/dominik/repos/school_assignments/src/printer.h
-  out_dir = oop_assignment_1.d
-  extra_flags = 
-
-build oop_assignment_1.d/application.o: cxx_compile /home/dominik/repos/school_assignments/src/application.cc | /home/dominik/repos/school_assignments/src/application.h /home/dominik/repos/school_assignments/src/event.h /home/dominik/repos/school_assignments/src/humidity-sensor.h /home/dominik/repos/school_assignments/src/measurement-storage.h /home/dominik/repos/school_assignments/src/measurement.h /home/dominik/repos/school_assignments/src/menu.h /home/dominik/repos/school_assignments/src/observer.h /home/dominik/repos/school_assignments/src/pressure-sensor.h /home/dominik/repos/school_assignments/src/printer.h /home/dominik/repos/school_assignments/src/sensor-manager.h /home/dominik/repos/school_assignments/src/sensor.h /home/dominik/repos/school_assignments/src/temperature-sensor.h /home/dominik/repos/school_assignments/src/utils.h
-  out_dir = oop_assignment_1.d
-  extra_flags = 
-
-build oop_assignment_1.d/event.o: cxx_compile /home/dominik/repos/school_assignments/src/event.cc | /home/dominik/repos/school_assignments/src/event.h /home/dominik/repos/school_assignments/src/utils.h
-  out_dir = oop_assignment_1.d
-  extra_flags = 
-
-build oop_assignment_1.d/menu.o: cxx_compile /home/dominik/repos/school_assignments/src/menu.cc | /home/dominik/repos/school_assignments/src/application.h /home/dominik/repos/school_assignments/src/event.h /home/dominik/repos/school_assignments/src/humidity-sensor.h /home/dominik/repos/school_assignments/src/measurement-storage.h /home/dominik/repos/school_assignments/src/measurement.h /home/dominik/repos/school_assignments/src/menu.h /home/dominik/repos/school_assignments/src/observer.h /home/dominik/repos/school_assignments/src/pressure-sensor.h /home/dominik/repos/school_assignments/src/printer.h /home/dominik/repos/school_assignments/src/sensor-manager.h /home/dominik/repos/school_assignments/src/sensor.h /home/dominik/repos/school_assignments/src/temperature-sensor.h /home/dominik/repos/school_assignments/src/utils.h
-  out_dir = oop_assignment_1.d
-  extra_flags = 
-
-build oop_assignment_1.d/humidity-sensor.o: cxx_compile /home/dominik/repos/school_assignments/src/humidity-sensor.cc | /home/dominik/repos/school_assignments/src/humidity-sensor.h /home/dominik/repos/school_assignments/src/measurement.h /home/dominik/repos/school_assignments/src/sensor.h /home/dominik/repos/school_assignments/src/utils.h
   out_dir = oop_assignment_1.d
   extra_flags = 
 
@@ -26,19 +6,7 @@ build oop_assignment_1.d/alarm.o: cxx_compile /home/dominik/repos/school_assignm
   out_dir = oop_assignment_1.d
   extra_flags = 
 
-build oop_assignment_1.d/temperature-sensor.o: cxx_compile /home/dominik/repos/school_assignments/src/temperature-sensor.cc | /home/dominik/repos/school_assignments/src/measurement.h /home/dominik/repos/school_assignments/src/sensor.h /home/dominik/repos/school_assignments/src/temperature-sensor.h /home/dominik/repos/school_assignments/src/utils.h
-  out_dir = oop_assignment_1.d
-  extra_flags = 
-
-build oop_assignment_1.d/observer.o: cxx_compile /home/dominik/repos/school_assignments/src/observer.cc
-  out_dir = oop_assignment_1.d
-  extra_flags = 
-
-build oop_assignment_1.d/measurement.o: cxx_compile /home/dominik/repos/school_assignments/src/measurement.cc | /home/dominik/repos/school_assignments/src/measurement.h
-  out_dir = oop_assignment_1.d
-  extra_flags = 
-
-build oop_assignment_1.d/pressure-sensor.o: cxx_compile /home/dominik/repos/school_assignments/src/pressure-sensor.cc | /home/dominik/repos/school_assignments/src/measurement.h /home/dominik/repos/school_assignments/src/pressure-sensor.h /home/dominik/repos/school_assignments/src/sensor.h /home/dominik/repos/school_assignments/src/utils.h
+build oop_assignment_1.d/menu.o: cxx_compile /home/dominik/repos/school_assignments/src/menu.cc | /home/dominik/repos/school_assignments/src/application.h /home/dominik/repos/school_assignments/src/event.h /home/dominik/repos/school_assignments/src/humidity-sensor.h /home/dominik/repos/school_assignments/src/measurement-storage.h /home/dominik/repos/school_assignments/src/measurement.h /home/dominik/repos/school_assignments/src/menu.h /home/dominik/repos/school_assignments/src/observer.h /home/dominik/repos/school_assignments/src/pressure-sensor.h /home/dominik/repos/school_assignments/src/printer.h /home/dominik/repos/school_assignments/src/sensor-manager.h /home/dominik/repos/school_assignments/src/sensor.h /home/dominik/repos/school_assignments/src/temperature-sensor.h /home/dominik/repos/school_assignments/src/utils.h
   out_dir = oop_assignment_1.d
   extra_flags = 
 
@@ -46,7 +14,39 @@ build oop_assignment_1.d/sensor-manager.o: cxx_compile /home/dominik/repos/schoo
   out_dir = oop_assignment_1.d
   extra_flags = 
 
+build oop_assignment_1.d/printer.o: cxx_compile /home/dominik/repos/school_assignments/src/printer.cc | /home/dominik/repos/school_assignments/src/printer.h
+  out_dir = oop_assignment_1.d
+  extra_flags = 
+
+build oop_assignment_1.d/observer.o: cxx_compile /home/dominik/repos/school_assignments/src/observer.cc
+  out_dir = oop_assignment_1.d
+  extra_flags = 
+
 build oop_assignment_1.d/main.o: cxx_compile /home/dominik/repos/school_assignments/src/main.cc | /home/dominik/repos/school_assignments/src/alarm.h /home/dominik/repos/school_assignments/src/application.h /home/dominik/repos/school_assignments/src/event.h /home/dominik/repos/school_assignments/src/humidity-sensor.h /home/dominik/repos/school_assignments/src/measurement-storage.h /home/dominik/repos/school_assignments/src/measurement.h /home/dominik/repos/school_assignments/src/menu.h /home/dominik/repos/school_assignments/src/observer.h /home/dominik/repos/school_assignments/src/pressure-sensor.h /home/dominik/repos/school_assignments/src/printer.h /home/dominik/repos/school_assignments/src/sensor-manager.h /home/dominik/repos/school_assignments/src/sensor.h /home/dominik/repos/school_assignments/src/temperature-sensor.h /home/dominik/repos/school_assignments/src/utils.h
+  out_dir = oop_assignment_1.d
+  extra_flags = 
+
+build oop_assignment_1.d/application.o: cxx_compile /home/dominik/repos/school_assignments/src/application.cc | /home/dominik/repos/school_assignments/src/application.h /home/dominik/repos/school_assignments/src/event.h /home/dominik/repos/school_assignments/src/humidity-sensor.h /home/dominik/repos/school_assignments/src/measurement-storage.h /home/dominik/repos/school_assignments/src/measurement.h /home/dominik/repos/school_assignments/src/menu.h /home/dominik/repos/school_assignments/src/observer.h /home/dominik/repos/school_assignments/src/pressure-sensor.h /home/dominik/repos/school_assignments/src/printer.h /home/dominik/repos/school_assignments/src/sensor-manager.h /home/dominik/repos/school_assignments/src/sensor.h /home/dominik/repos/school_assignments/src/temperature-sensor.h /home/dominik/repos/school_assignments/src/utils.h
+  out_dir = oop_assignment_1.d
+  extra_flags = 
+
+build oop_assignment_1.d/humidity-sensor.o: cxx_compile /home/dominik/repos/school_assignments/src/humidity-sensor.cc | /home/dominik/repos/school_assignments/src/humidity-sensor.h /home/dominik/repos/school_assignments/src/measurement.h /home/dominik/repos/school_assignments/src/sensor.h /home/dominik/repos/school_assignments/src/utils.h
+  out_dir = oop_assignment_1.d
+  extra_flags = 
+
+build oop_assignment_1.d/pressure-sensor.o: cxx_compile /home/dominik/repos/school_assignments/src/pressure-sensor.cc | /home/dominik/repos/school_assignments/src/measurement.h /home/dominik/repos/school_assignments/src/pressure-sensor.h /home/dominik/repos/school_assignments/src/sensor.h /home/dominik/repos/school_assignments/src/utils.h
+  out_dir = oop_assignment_1.d
+  extra_flags = 
+
+build oop_assignment_1.d/measurement.o: cxx_compile /home/dominik/repos/school_assignments/src/measurement.cc | /home/dominik/repos/school_assignments/src/measurement.h
+  out_dir = oop_assignment_1.d
+  extra_flags = 
+
+build oop_assignment_1.d/event.o: cxx_compile /home/dominik/repos/school_assignments/src/event.cc | /home/dominik/repos/school_assignments/src/event.h /home/dominik/repos/school_assignments/src/utils.h
+  out_dir = oop_assignment_1.d
+  extra_flags = 
+
+build oop_assignment_1.d/sensor.o: cxx_compile /home/dominik/repos/school_assignments/src/sensor.cc | /home/dominik/repos/school_assignments/src/measurement.h /home/dominik/repos/school_assignments/src/sensor.h /home/dominik/repos/school_assignments/src/utils.h
   out_dir = oop_assignment_1.d
   extra_flags = 
 
@@ -54,7 +54,7 @@ build oop_assignment_1.d/utils.o: cxx_compile /home/dominik/repos/school_assignm
   out_dir = oop_assignment_1.d
   extra_flags = 
 
-build oop_assignment_1.d/sensor.o: cxx_compile /home/dominik/repos/school_assignments/src/sensor.cc | /home/dominik/repos/school_assignments/src/measurement.h /home/dominik/repos/school_assignments/src/sensor.h /home/dominik/repos/school_assignments/src/utils.h
+build oop_assignment_1.d/temperature-sensor.o: cxx_compile /home/dominik/repos/school_assignments/src/temperature-sensor.cc | /home/dominik/repos/school_assignments/src/measurement.h /home/dominik/repos/school_assignments/src/sensor.h /home/dominik/repos/school_assignments/src/temperature-sensor.h /home/dominik/repos/school_assignments/src/utils.h
   out_dir = oop_assignment_1.d
   extra_flags = 
 
