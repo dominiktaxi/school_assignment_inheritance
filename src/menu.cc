@@ -31,6 +31,7 @@ void Menu::mainMenu()
     break;
     case 2:
     {
+        Printer::clearTerminal();
         if (!_application->collect())
         {
             Printer::print("No sensors registered");
@@ -75,30 +76,54 @@ void Menu::setupSensor(int choice)
     {
     case SENSOR_TYPE::TEMPERATURE:
     {
-        Printer::print("Set a minumum value for temperature sensor(celsius): ");
-        std::cin >> minMax.minThreshold;
-        Printer::print("Set a maximum value for temperature sensor(celsius): ");
-        Printer::newLine();
-        std::cin >> minMax.maxThreshold;
-        _application->addSensor(TYPE, minMax);
+        if (!::addedTemperatureSensor)
+        {
+            Printer::print("Set a minumum threshold value for temperature sensor(celsius): ");
+            std::cin >> minMax.minThreshold;
+            Printer::print("Set a maximum threshold value for temperature sensor(celsius): ");
+            Printer::newLine();
+            std::cin >> minMax.maxThreshold;
+            _application->addSensor(TYPE, minMax);
+            ::addedTemperatureSensor = true;
+        }
+        else
+        {
+            Printer::print("Temperature sensor already addded");
+        }
     }
     break;
     case SENSOR_TYPE::HUMIDITY:
     {
-        std::cout << "Set a minumum value for humidity sensor(%): " << std::endl;
-        std::cin >> minMax.minThreshold;
-        std::cout << "Set a maximum value for humidity sensor(%): " << std::endl;
-        std::cin >> minMax.maxThreshold;
-        _application->addSensor(TYPE, minMax);
+        if (!::addedHumiditySensor)
+        {
+            std::cout << "Set a minumum threshold value for humidity sensor(%): " << std::endl;
+            std::cin >> minMax.minThreshold;
+            std::cout << "Set a maximum threshold value for humidity sensor(%): " << std::endl;
+            std::cin >> minMax.maxThreshold;
+            _application->addSensor(TYPE, minMax);
+            ::addedHumiditySensor = true;
+        }
+        else
+        {
+            Printer::print("Humidity sensor already added");
+        }
     }
     break;
     case SENSOR_TYPE::PRESSURE:
     {
-        std::cout << "Set a minumum value for pressure sensor(BAR) sensor: " << std::endl;
-        std::cin >> minMax.minThreshold;
-        std::cout << "Set a maximum value for pressure sensor(BAR) sensor: " << std::endl;
-        std::cin >> minMax.maxThreshold;
-        _application->addSensor(TYPE, minMax);
+        if (!::addedPressureSensor)
+        {
+            std::cout << "Set a minumum value for pressure sensor(BAR) sensor: " << std::endl;
+            std::cin >> minMax.minThreshold;
+            std::cout << "Set a maximum value for pressure sensor(BAR) sensor: " << std::endl;
+            std::cin >> minMax.maxThreshold;
+            _application->addSensor(TYPE, minMax);
+            ::addedPressureSensor = true;
+        }
+        else
+        {
+            Printer::print("Pressure sensor already added");
+        }
     }
     break;
     }

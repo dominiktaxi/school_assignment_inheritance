@@ -6,6 +6,9 @@
 class Measurement;
 class Sensor;
 
+extern bool addedTemperatureSensor;
+extern bool addedHumiditySensor;
+extern bool addedPressureSensor;
 struct MinMax
 {
     float minThreshold;

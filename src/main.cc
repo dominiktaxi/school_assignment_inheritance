@@ -10,7 +10,6 @@ int main()
     {
         app.notifyObservers();
         app.clearEvents();
-        std::cout << "MMMMM";
     }
     return 0;
 }

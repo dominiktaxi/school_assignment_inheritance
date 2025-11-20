@@ -24,10 +24,7 @@ void Alarm::notifyObservers(const Event &event)
             std::cout << "ALARM: PRESSURE OVER THRESHOLD" << std::endl;
             _deviations.push_back({event.type(), ::SENSOR_TYPE::PRESSURE, ::localTime().c_str()});
         }
-        else
-        {
-            std::cout << "something is off" << std::endl;
-        }
+       
     }
     break;
     case Event::TYPE::UNDER_THRESHOLD:

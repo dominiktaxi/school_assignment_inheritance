@@ -1,5 +1,7 @@
 #include <iostream>
 #include <fstream>
+#include <stdio.h>
+#include <sstream>
 #include "measurement-storage.h"
 #include "printer.h"
 
@@ -27,34 +29,23 @@ void MeasurementStorage::storeToHDD()
             {
                 temperature << measurement->type << "," << measurement->reading << "," << measurement->timeStamp;
             }
+            else if (measurement->type == "Humidity")
+            {
+                humidity << measurement->type << "," << measurement->reading << "," << measurement->timeStamp;
+            }
+            else if (measurement->type == "Pressure")
+            {
+                pressure << measurement->type << "," << measurement->reading << "," << measurement->timeStamp;
+            }
         }
+        temperature.close();
+        humidity.close();
+        pressure.close();
     }
-    // if(_measurements.size() > 0)
-    // {
-    //     std::ofstream humidityReadings ("measurements/humidityReadings.txt", std::ios::app);
-    //     std::ofstream temperatureReadings ("measurements/temperatureReadings.txt", std::ios::app);
-    //     if(!humidityReadings || !temperatureReadings)
-    //     {
-    //         std::cerr << "Failed to create file" << std::endl;
-    //         return;
-    //     }
-    //     for (const auto& measurement : _measurements)
-    //     {
-    //         if ( measurement->TYPE == Sensor::TYPE::HUMIDITY)
-    //         {
-    //             humidityReadings << measurement->reading << "," << measurement->unit << "," << measurement->timeStamp << ","
-    //             << static_cast<int>(measurement->TYPE) << "," << measurement->type << "," << measurement->overThreshold << "\n";
-    //         }
-    //         else if(measurement->TYPE == Sensor::TYPE::TEMPERATURE)
-    //         {
-    //             temperatureReadings << measurement->reading << "," << measurement->unit << "," << measurement->timeStamp << ","
-    //             << static_cast<int>(measurement->TYPE) << "," << measurement->type << "," << measurement->overThreshold << "\n";
-    //         }
-    //     }
-    //     temperatureReadings.close();
-    //     humidityReadings.close();
-    // }
-    // else {std::cout << "No data was saved" << std::endl;}
+}
+
+void MeasurementStorage::loadFromHDD()
+{
 }
 
 void MeasurementStorage::clearMeasurementsHeap()
@@ -74,6 +65,9 @@ void MeasurementStorage::clearMeasurementsHeap()
 
 void MeasurementStorage::clearMeasurementsHDD()
 {
+    remove("measurements/temperature.txt");
+    remove("measurements/humidity.txt");
+    remove("measurements/pressure.txt");
 }
 
 const std::vector<std::unique_ptr<Measurement>> &MeasurementStorage::measurements() const

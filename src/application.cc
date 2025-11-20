@@ -82,7 +82,6 @@ void Application::printMeasurements() const
         Printer::print(measurement->reading);
         Printer::print(measurement->timeStamp);
         Printer::newLine();
-        std::cout << "DUDE" << std::endl;
     }
 }
 
@@ -98,7 +97,6 @@ void Application::notifyObservers() const
         for (const auto &event : _events)
         {
             observer->notifyObservers(event);
-            std::cout << "NOTIFIED";
         }
     }
 }

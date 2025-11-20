@@ -1,5 +1,10 @@
 #include "utils.h"
 #include "measurement.h"
+
+bool addedTemperatureSensor = false;
+bool addedHumiditySensor = false;
+bool addedPressureSensor = false;
+
 float randomFloat(float min, float max)
 {
     std::random_device rd;

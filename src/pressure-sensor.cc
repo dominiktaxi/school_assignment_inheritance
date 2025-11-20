@@ -11,5 +11,6 @@ std::unique_ptr<Measurement> PressureSensor::read() const
     measurement->reading = ::randomFloat(0.f, 400.f);
     measurement->type = Sensor::type();
     measurement->timeStamp = ::localTime().c_str();
+    measurement->id = _id;
     return measurement;
 }

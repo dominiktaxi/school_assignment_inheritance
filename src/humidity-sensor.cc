@@ -13,5 +13,6 @@ std::unique_ptr<Measurement> HumiditySensor::read() const
     measurement->reading = ::randomFloat(0.f, 100.f);
     measurement->type = Sensor::type();
     measurement->timeStamp = ::localTime();
+    measurement->id = _id;
     return measurement;
 }

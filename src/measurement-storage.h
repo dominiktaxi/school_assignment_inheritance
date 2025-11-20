@@ -7,6 +7,7 @@ class MeasurementStorage
 public:
     void addMeasurement(std::unique_ptr<Measurement>);
     void storeToHDD();
+    void loadFromHDD();
     void clearMeasurementsHeap();
     void clearMeasurementsHDD();
     const std::vector<std::unique_ptr<Measurement>> &measurements() const;
