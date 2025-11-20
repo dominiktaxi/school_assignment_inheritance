@@ -27,15 +27,15 @@ void MeasurementStorage::storeToHDD()
         {
             if (measurement->type == "Temperature")
             {
-                temperature << measurement->type << "," << measurement->reading << "," << measurement->timeStamp;
+                temperature << measurement->type << "," << measurement->reading << "," << measurement->timeStamp << "\n";
             }
             else if (measurement->type == "Humidity")
             {
-                humidity << measurement->type << "," << measurement->reading << "," << measurement->timeStamp;
+                humidity << measurement->type << "," << measurement->reading << "," << measurement->timeStamp << "\n";
             }
             else if (measurement->type == "Pressure")
             {
-                pressure << measurement->type << "," << measurement->reading << "," << measurement->timeStamp;
+                pressure << measurement->type << "," << measurement->reading << "," << measurement->timeStamp << "\n";
             }
         }
         temperature.close();
@@ -46,21 +46,41 @@ void MeasurementStorage::storeToHDD()
 
 void MeasurementStorage::loadFromHDD()
 {
+    std::ifstream temperature("measurements/temperature.txt", std::ios::app);
+    std::ifstream humidity("measurements/humidity.txt", std::ios::app);
+    std::ifstream pressure("measurements/pressure.txt", std::ios::app);
+    if (!temperature.is_open())
+    {
+        Printer::cerr("temperature.txt could not open");
+    }
+    if (!humidity.is_open())
+    {
+        Printer::cerr("humidity.txt could not open");
+    }
+    if (!pressure.is_open())
+    {
+        Printer::cerr("pressure.txt could not open");
+    }
+
+    std::string line;
+    while (getline(temperature, line, '\n'))
+    {
+        std::stringstream ss(line);
+        std::string type, reading, timeStamp;
+        getline(ss, type, ',');
+        getline(ss, reading, ',');
+        getline(ss, timeStamp, ',');
+        std::unique_ptr<Measurement> measurement = std::make_unique<Measurement>();
+        measurement->reading = std::stof(reading);
+        measurement->type = type.c_str();
+        measurement->timeStamp = timeStamp;
+        _measurements.push_back(std::move(measurement));
+    }
 }
 
 void MeasurementStorage::clearMeasurementsHeap()
 {
-    Printer::print("Are you sure? Y/N");
-    char choice;
-    std::cin >> choice;
-    if (choice == 'y' || choice == 'Y')
-    {
-        _measurements.clear();
-    }
-    else
-    {
-        return;
-    }
+    _measurements.clear();
 }
 
 void MeasurementStorage::clearMeasurementsHDD()

@@ -2,9 +2,14 @@
 
 Sensor::Sensor(SENSOR_TYPE TYPE) : _type(_typeToChars(TYPE)), _TYPE(TYPE) {}
 
-const char *Sensor::type() const
+std::string Sensor::type() const
 {
     return _type;
+}
+
+SENSOR_TYPE Sensor::SENSORTYPE() const
+{
+    return _TYPE;
 }
 
 const char *Sensor::_typeToChars(SENSOR_TYPE TYPE)
@@ -32,9 +37,4 @@ const char *Sensor::_typeToChars(SENSOR_TYPE TYPE)
     }
     break;
     }
-}
-
-SENSOR_TYPE Sensor::SENSORTYPE() const
-{
-    return _TYPE;
 }

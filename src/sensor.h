@@ -8,12 +8,12 @@ public:
     Sensor(SENSOR_TYPE);
     virtual ~Sensor() = default;
     virtual std::unique_ptr<Measurement> read() const = 0;
-    virtual const char *type() const;
+    std::string type() const;
     SENSOR_TYPE SENSORTYPE() const;
 
 protected:
     SENSOR_TYPE _TYPE;
-    const char *const _type;
+    std::string _type;
 
 private:
     const char *_typeToChars(SENSOR_TYPE);

@@ -5,7 +5,7 @@
 #include "application.h"
 Menu::Menu(Application *application) : _application(application) {}
 
-void Menu::mainMenu()
+bool Menu::mainMenu()
 {
     int choice = 0;
     Printer::print("Amount of sensors: ");
@@ -14,9 +14,10 @@ void Menu::mainMenu()
     Printer::print("2.Collect data from all sensors");
     Printer::print("3.Print all collected data");
     Printer::print("4.Remove stored data");
+    Printer::print("9.Exit");
     Printer::newLine();
     // std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-    while (!(std::cin >> choice) || choice < 0 || choice > 4)
+    while (!(std::cin >> choice) || choice < 0 && choice != 9 || choice > 4 && choice != 9)
     {
         Printer::print("Please enter a valid number");
         std::cin.clear();
@@ -45,9 +46,16 @@ void Menu::mainMenu()
     break;
     case 4:
     {
+        _application->removeStoredData();
+    }
+    break;
+    case 9:
+    {
+        return false;
     }
     break;
     }
+    return true;
 }
 
 int Menu::chooseSensor()

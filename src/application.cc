@@ -7,8 +7,7 @@ Application::Application() : _menu(this) {}
 
 bool Application::run()
 {
-    _menu.mainMenu();
-    return true;
+    return _menu.mainMenu();
 }
 
 MeasurementStorage *Application::measurementStorage()
@@ -104,4 +103,20 @@ void Application::notifyObservers() const
 void Application::clearEvents()
 {
     _events.clear();
+}
+
+void Application::removeStoredData()
+{
+    _measurementStorage.clearMeasurementsHDD();
+    _measurementStorage.clearMeasurementsHeap();
+}
+
+void Application::storeToHDD()
+{
+    _measurementStorage.storeToHDD();
+}
+
+void Application::loadFromHDD()
+{
+    _measurementStorage.loadFromHDD();
 }

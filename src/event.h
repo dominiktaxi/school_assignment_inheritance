@@ -15,5 +15,5 @@ public:
 
 private:
     TYPE _TYPE;
-    SENSOR_TYPE _SENSOR_TYPE;
+    ::SENSOR_TYPE _SENSOR_TYPE;
 };

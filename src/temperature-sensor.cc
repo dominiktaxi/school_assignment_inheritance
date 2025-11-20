@@ -11,6 +11,5 @@ std::unique_ptr<Measurement> TemperatureSensor::read() const
     measurement->reading = ::randomFloat(-20.f, 69.9f);
     measurement->type = Sensor::type();
     measurement->timeStamp = ::localTime();
-    measurement->id = _id;
     return measurement;
 }

@@ -6,7 +6,7 @@ class Menu
 {
 public:
     Menu(Application *);
-    void mainMenu();
+    bool mainMenu();
     int chooseSensor();
     void setupSensor(int);
 

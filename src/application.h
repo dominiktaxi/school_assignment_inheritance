@@ -19,6 +19,9 @@ public:
     void attachObserver(Observer *);
     void notifyObservers() const;
     void clearEvents();
+    void removeStoredData();
+    void storeToHDD();
+    void loadFromHDD();
 
 private:
     SensorManager _sensorManager;

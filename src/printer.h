@@ -8,6 +8,12 @@ namespace Printer
         std::cout << value << std::endl;
     }
 
+    template <typename T>
+    void cerr(const T &value)
+    {
+        std::cerr << value << std::endl;
+    }
+
     void newLine();
     void clearTerminal();
 };
